@@ -18,3 +18,4 @@ git clone <repository_url>
 cd <repository_name>
 
 Preview
+https://gone-keerthi.github.io/Maemeto-test/
