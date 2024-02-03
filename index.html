@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="product-container">
+      <div class="left-side">
+        <div class="product-image-container">
+          <img id="main-product-image" src alt="Main Product Image">
+        </div>
+        <div class="thumbnail-images-container" id="thumbnail-images">
+
+          <!-- Thumbnail product images will be dynamically added here -->
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="product-details">
+          <p class="product-vendor" id="product-vendor"></p>
+          <h2 class="product-title" id="product-title"></h2>
+          <hr>
+          <div class="about-price">
+            <span class="product-price" id="product-price"></span>
+            <span class="percentage-discount" id="percentage-discount"> </span>
+            <p class="compare-at-price" id="compare-at-price"></p>
+          </div>
+          <hr>
+        </div>
+
+        <label for="color-selector" style="color: grey;">Select Color:</label>
+        <div id="color-selector">
+          <!-- Color options will be dynamically added here -->
+         
+        </div>
+
+        <label for="size-selector" style="color: grey;"> Choose a size </label>
+        <div id="size-selector">
+          <!-- Size options will be dynamically added here -->
+        </div>
+        <div class="product-cart">
+          <!-- <label for="quantity-selector">Quantity:</label> -->
+          <div id="quantity-selector">
+            <span id="decrease-quantity">-</span>
+            <span id="quantity">1</span>
+            <span id="increase-quantity">+</span>
+          </div>
+          <button id="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <span class="add-to-cart-message" id="add-to-cart-message"></span>
+        <p id="product-description">
+          <!-- Product Description will be dynamically added here -->
+        </p>
+      </div>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
